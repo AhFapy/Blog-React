@@ -1,0 +1,23 @@
+#main-home {
+    background-color: #3E3C3C;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 9%;
+    justify-content: flex-start;
+}
+
+#home-content {
+    background-color: #373636;
+    height: 100%;
+    width: 30vw;
+    margin-left: 20vw;
+    margin-right: auto;
+}
+
+#categories {
+    background-color: #373636;
+    width: 15vw;
+    height: 80%;
+}
