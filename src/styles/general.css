@@ -1,0 +1,24 @@
+/* ARCHIVO CSS PARA COMPONENTES O COSAS GENERALES */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: gray;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+}
+
+main {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
