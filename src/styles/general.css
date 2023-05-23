@@ -1,0 +1,66 @@
+/* ARCHIVO CSS PARA COMPONENTES O COSAS GENERALES */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+nav {
+    background-color: #4E4949;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 98%;
+    border-radius: 2.4vw;
+    margin-left: 1vw;
+    margin-top: 2.2vh;
+    border: 0.24vw solid black;
+}
+
+#navone, #navtwo, #navthree {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#signup, #login, #title {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+    transition: 0.5s ease-in-out;
+}
+
+#signup:hover, #login:hover, #title:hover {
+    color: white;
+}
+
+#title {
+    font-size: 2.3vw;
+}
+
+footer {
+    height: 15vh;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.6vw;
+    justify-content: center;
+}
